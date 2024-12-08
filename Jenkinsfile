@@ -36,7 +36,7 @@ pipeline {
         stage('Deploy on prod') {
             steps {
                 echo 'Continuing the pipeline...'
-                sh 'exit 1'
+                
             }
         }
     }
